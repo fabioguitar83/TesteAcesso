@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TesteAcesso.API</name>
+    </assembly>
+    <members>
+        <member name="M:TesteAcesso.API.Controllers.TransactionController.CreateTransaction(TesteAcesso.Model.Handlers.TransactionRequest)">
+            <summary>
+            Create a new transfer
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TesteAcesso.API.Controllers.TransactionController.GetTransactionStatus(System.String)">
+            <summary>
+            Return status of a transfer
+            </summary>
+            <param name="transactionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TesteAcesso.API.Controllers.TransactionController.ExecuteTransaction(TesteAcesso.Model.Handlers.ExecuteTransactionRequest)">
+            <summary>
+            Execute a transfer
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
