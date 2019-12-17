@@ -16,6 +16,18 @@
   <li>Docker(imagem do MySql, do ElasticSearch e do Kibana)</li>
 </ul>
 
+<h3>Resumo da solução:</h3>
+
+<p>Criei 3 endpoints para as seguintes funcionalidades:<p/>
+
+<ul>
+  <li>Criar uma nova tranferência</li>
+  <li>Consultar o status de uma transferência</li>
+  <li>Executar um transferencia. 
+    Criei esse endpoint para separar a responsabilidade de criar e executar a transferência, dessa forma a execução pode ser rodada em background offline por algum robo ou alguma outra aplicação interna. </li>  
+</ul>
+
+<p>Toda ação é logada no Elastic Search e pode ser consultada no Kibana. Para gravar as transferencias criadas e seus status utilizei o MySql.</p>
 
 <h3>Configuração para subir os containers:</h3>
 
