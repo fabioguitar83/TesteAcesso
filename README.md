@@ -23,7 +23,7 @@
 <ul>
   <li>Criar uma nova tranferência</li>
   <li>Consultar o status de uma transferência</li>
-  <li>Executar um transferencia. 
+  <li>Executar uma transferencia. 
     Criei esse endpoint para separar a responsabilidade de criar e executar a transferência, dessa forma a execução pode ser rodada em background offline por algum robo ou alguma outra aplicação interna. </li>  
 </ul>
 
